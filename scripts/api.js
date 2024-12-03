@@ -1,4 +1,4 @@
-fetch(`https://swapi.tech/api/films`)
+fetch('https://swapi.tech/api/films')
   .then((res) => {
     return res.json()
   })
